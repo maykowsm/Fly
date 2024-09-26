@@ -1,0 +1,47 @@
+
+
+body{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: rgb(38, 21, 133); */
+}
+
+header{
+    height: 120px;
+    padding-left: 20px;
+    background-color: rgb(38, 21, 133);
+    margin-bottom: 20px;
+}
+
+h1#titulo {
+    margin: 0px;
+    color: orange;
+    font-size: 50pt;
+}
+
+h3{
+    color: white;
+    margin: 0px;
+}
+
+button, #labelinput{   
+    color: #261585; 
+    border: 1px solid #261585;
+    height: 40px;
+    width: 100px;
+}
+
+input[type = 'file']{
+    display: none;
+}
+
+#areaPlotagem{
+    padding-left: 20px;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto  ;
+    scale: 1.3;
+}

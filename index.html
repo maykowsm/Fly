@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLY Ploter EMG</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1 id="titulo">FLY</h1>
+        <h3>Ploter EMG </h3>
+    </header>
+    
+    <div id="areaPlotagem">
+        <!-- <label for="csvFileInput" id="labelinput"><img src="img/upload.svg" alt=""></label> -->
+        
+        <button id="labelinput"><img src="img/upload.svg"> Arquivo</button>
+        <input type="file" id="csvFileInput" accept=".csv" />
+
+        <div style="height: 400px; width: 98%; border: 1px solid #261585; margin: 10px; margin-left:0px">
+            <canvas id="csvChart" ></canvas>
+        </div>
+        
+
+        <div>
+            <button id="prevPage"><img src="img/seta_voltar.svg"></button>
+            <button id="nextPage"><img src="img/seta_avancar.svg" alt=""></button>
+            <button id="zoomIn"><img src="img/zoomIn.svg" alt=""></button>
+            <button id="zoomOut"><img src="img/zoomOut.svg" alt=""></button>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
